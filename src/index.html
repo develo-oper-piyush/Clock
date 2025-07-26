@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="output.css" />
+        <title>Clock</title>
+        <link
+            rel="shortcut icon"
+            href="images/favicon.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body
+        class="m-0 p-0 box-border font-gilroy font-bold w-screen h-screen bg-gray-200"
+    >
+        <div
+            id="main"
+            class="select-none w-screen h-screen flex flex-col justify-center items-center bg-[#1c1c1c] text-white gap-y-5"
+        >
+            <h1>Clock</h1>
+            <div
+                id="clock"
+                class="cursor-pointer h-80 w-80 bg-[url(images/clock.png)] overflow-hidden bg-cover flex justify-center items-center rounded-full"
+            >
+                <div
+                    id="hour"
+                    class="origin-bottom absolute rounded-full w-2 h-22 mb-21 bg-[#454545] shadow-xs"
+                ></div>
+                <div
+                    id="min"
+                    class="origin-bottom absolute rounded-full w-1 h-26 mb-25 bg-[#636363] shadow-xs"
+                ></div>
+                <div
+                    id="sec"
+                    class="origin-bottom absolute rounded-full w-0.5 h-30 mb-30 bg-[#c6c6c6] shadow-xs"
+                ></div>
+                <div
+                    class="h-3 w-3 z-4 shadow-lg rounded-full bg-red-600"
+                ></div>
+            </div>
+            <div
+                id="digital_clock"
+                class="w-60 h-20 rounded-md shadow-xl ring-1 ring-[#3c3c3c] bg-[#242424] flex justify-center items-center cursor-pointer"
+            >
+                12 : 00 am
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
