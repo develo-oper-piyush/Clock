@@ -11,7 +11,7 @@ A simple and elegant **Analog + Digital Clock** web application demonstrating co
 
 ### 🚀 Quick Start (To try this on your local machine)
 
-1. Install **Node.js** (v12.13+).
+1. Install **Node.js**.
 2. In your terminal: (To install Tailwind CSS using CLI)
 
    ```bash
